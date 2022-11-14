@@ -1,0 +1,4 @@
+servlets\SignUpServlet.class
+servlets\RecordGettingServlet.class
+entities\Record.class
+Utils\DBRecordsService.class

@@ -1,0 +1,97 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<form method="post" action="/Diary/pool">
+			<div class="main">
+				<div class="pool">
+					
+					<div class="add_button" onclick="showModal(0)">+</div>
+
+						<div class="container" onclick="showModal(1)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id" onclick="event.stopPropagation()"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(2)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(3)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id" onclick=""><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(4)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(5)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(6)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(7)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id"><b>X</b></button>	
+						</div>
+
+						<div class="container" onclick="showModal(8)">
+							
+							<p>lorem ipsum sit amet</p>
+							<input type="hidden" name="edit" value="id">
+							<button name="delete" value="id" ><b>X</b></button>	
+						</div>
+					
+
+
+				</div>
+				<div class="aside">
+					<button name="variety" value="exit">EXIT</button>
+					<div class="tools">
+						<button name="variety" value="add">ADD</button>
+						<button name="variety" value="edit">EDIT</button>
+						<button name="variety" value="del">DEL</button>	
+					</div>
+				</div>
+			</div>
+		</form>
+
+
+		<div id="modal" class="modal">
+			<div class="modal_content">
+				<form>
+					<div class="close_modal_button" onclick="hideModal()"><b>+</b></div>
+					<textarea  name="record"></textarea>
+					<p><button type="submit">Save</button></p>
+
+				</form>
+			</div>
+		</div>
+		<script src="JavaScript/recordsPool.js"></script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>	
+<body>
+<!-- <%
+    int id = (int) session.getAttribute("user_id");
+    out.println("User_id = " + id);
+%> -->
+<form method="post" action="/Diary/pool/editing">
+		<div class="body">
+			<div class="editing">
+					<h1>Diary</h1>
+					<textarea cols="60" rows="50" name="record"></textarea>
+					<p><button type="submit">Save</button></p>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
